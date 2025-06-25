@@ -7,9 +7,11 @@ def get_llm_response(prompt):
     response = ollama.generate(
         model="llama3.1",
         prompt=prompt,
-        options={"temperature": 0.7}  # Controls creativity
+        options={"temperature": 0.7}
     )
-    return response['response'].strip()
+    raw_response = response['response'].strip()
+    print(f"Raw LLM response: {raw_response}")  # Debug print
+    return raw_response
 
 # Agentic decision-making: Prioritize tasks
 def prioritize_tasks(tasks, goal):

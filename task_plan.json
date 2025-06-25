@@ -1,0 +1,17 @@
+{
+  "goal": "Plan a study schedule for this week.",
+  "tasks": [
+    "Review goal",
+    "Create plan",
+    "Execute tasks"
+  ],
+  "schedule": {
+    "Monday": [
+      "Review goal",
+      "Create plan"
+    ],
+    "Tuesday": [
+      "Execute tasks"
+    ]
+  }
+}
