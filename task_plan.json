@@ -1,17 +1,22 @@
 {
   "goal": "Plan a study schedule for this week.",
   "tasks": [
-    "Review goal",
-    "Create plan",
-    "Execute tasks"
+    "Plan out study goals for the week",
+    "Create a schedule for each day of the week",
+    "Set aside dedicated time for review and practice"
   ],
   "schedule": {
     "Monday": [
-      "Review goal",
-      "Create plan"
+      "Plan out study goals for the week",
+      "Create a schedule for each day of the week"
     ],
     "Tuesday": [
-      "Execute tasks"
-    ]
+      "Set aside dedicated time for review and practice"
+    ],
+    "Wednesday": [],
+    "Thursday": [],
+    "Friday": [],
+    "Saturday": [],
+    "Sunday": []
   }
 }
